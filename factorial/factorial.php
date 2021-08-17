@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 
     $num = 0;   //numero que sera calculado o factorial
