@@ -13,7 +13,7 @@
 	</form>
 
 	<?php 
-		if (isset($_POST['num'])) {
+		if (isset($_POST['validar'])) {
 			$num = $_POST['num'];
 			if (($num % 10 == 0) && ($num % 5 == 0) && ($num % 2 == 0)) {
 				echo "O numero $num é divisível por 10, por 5 e por 2";
