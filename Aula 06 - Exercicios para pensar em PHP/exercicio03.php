@@ -27,7 +27,7 @@
 			$sexo = $_POST['genero'];
 			$idade = $_POST['idade'];
 			$mensagem1 = "<p>ACEITA<p>";
-			$mensagem2 = "<p>NAO ACEITA<p>";
+			$mensagem2 = "<p>NÃO ACEITA<p>";
 
 			if (($_POST['genero'] == "Femenino") && ($_POST['idade'] < 25))  {
 				echo "<h1>Seu nome: </h3<b>$nome<b><br>";
