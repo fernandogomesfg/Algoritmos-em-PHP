@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script >
+		var primeira = function() {
+			document.write("1 - antes<br>");
+			segunda();
+			document.write("1 - depois<br>");
+			
+		};
+		var segunda = function(){
+			document.write("2 - antes<br>");
+			terceira();
+			document.write("3 - depois<br>");
+		};
+		var terceira = function(){
+			document.write("3<br>")
+		};
+		primeira();
+		
+	</script>
+
+	
+
+</body>
+</html>
